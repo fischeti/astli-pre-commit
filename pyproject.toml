@@ -1,0 +1,13 @@
+# pre-commit installs this package to install the hook. It holds no code: it
+# only pins the astli wheel from PyPI, so that the hook needs no Rust toolchain.
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astli-pre-commit"
+version = "0.0.0"
+dependencies = ["astli==0.1.1"]
+
+[tool.setuptools]
+py-modules = []

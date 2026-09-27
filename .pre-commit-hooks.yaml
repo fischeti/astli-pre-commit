@@ -1,0 +1,8 @@
+- id: astli-fmt
+  name: astli fmt
+  description: Format SystemVerilog with astli.
+  entry: astli fmt --write
+  language: python
+  types_or: [system-verilog, verilog]
+  # astli formats files in parallel itself.
+  require_serial: true
