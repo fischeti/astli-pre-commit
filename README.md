@@ -6,7 +6,7 @@ A [pre-commit](https://pre-commit.com) hook for
 ```yaml
 repos:
   - repo: https://github.com/fischeti/astli-pre-commit
-    rev: v0.1.1
+    rev: v0.2.0
     hooks:
       - id: astli-fmt
 ```
